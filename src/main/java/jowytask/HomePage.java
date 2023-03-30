@@ -22,7 +22,6 @@ public class HomePage extends Base {
 	
 	public HomePage(WebDriver driver) {
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 }
 	
 	

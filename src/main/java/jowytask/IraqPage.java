@@ -14,7 +14,6 @@ public class IraqPage extends Base{
 
 	
 	this.driver=driver;
-	PageFactory.initElements(driver, this);
 
 } 
 public List<WebElement> bundles()throws Exception{

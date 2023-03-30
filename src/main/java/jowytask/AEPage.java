@@ -13,7 +13,6 @@ import org.testng.annotations.Test;
 public class AEPage  extends Base  {
 	public AEPage (WebDriver driver) {		
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 
 	} 
 	public List<WebElement> bundles()throws Exception{
@@ -42,3 +41,4 @@ public class AEPage  extends Base  {
 
 	
 }
+//you can Apply this approach for all countries 
